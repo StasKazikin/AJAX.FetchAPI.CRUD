@@ -14,9 +14,15 @@ refs.searchForm.addEventListener('submit', event => {
   form.reset();
 
   newsService.resetPage();
-  newsService.fetchArticles().then(updateArticlesMarkup);
+  newsService.fetchArticles().then(articles => {
+    updateArticlesMarkup(articles);
+    refs.loadMoreBtn.classList.remove('is-hidden');
+  });
 });
 
 refs.loadMoreBtn.addEventListener('click', () => {
-  newsService.fetchArticles().then(updateArticlesMarkup);
+  newsService.fetchArticles().then(articles => {
+    updateArticlesMarkup(articles);
+    refs.loadMoreBtn.classList.remove('is-hidden');
+  });
 });

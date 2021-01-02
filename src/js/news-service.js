@@ -4,7 +4,7 @@ export default {
   searchQuery: '',
   page: 1,
   fetchArticles() {
-    const url = `https://newsapi.org/v2/everything?q=${this.searchQuery}&language=ru&page=${this.page}`;
+    const url = `https://newsapi.org/v2/everything?q=${this.query}&language=ru&page=${this.page}`;
 
     const options = {
       headers: {
