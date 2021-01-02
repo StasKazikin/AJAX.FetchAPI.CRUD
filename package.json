@@ -1,7 +1,6 @@
 {
   "name": "webpack-starter-kit",
   "version": "1.1.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
@@ -11,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StasKazikin/goit-js-hw-12-countries"
+    "url": "git+https://github.com/StasKazikin/AJAX.FetchAPI.CRUD.git"
   },
   "keywords": [],
   "author": "Stanislav Kazikin <kazikinstas@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/StasKazikin/goit-js-hw-12-countries/issues"
+    "url": "https://github.com/StasKazikin/AJAX.FetchAPI.CRUD/issues"
   },
-  "homepage": "https://staskazikin.github.io/goit-js-hw-12-countries/",
+  "homepage": "https://staskazikin.github.io/AJAX.FetchAPI.CRUD",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -51,5 +50,6 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6"
-  }
+  },
+  "description": ""
 }
